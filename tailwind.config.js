@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  //content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', '!./src/new-design/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/!(new-design|ui-kit)/**/*.{js,ts,jsx,tsx}', './src/*.{js,ts,jsx,tsx}'],
   theme: {
     backgroundColor: {
       primary: '#FFFFFF',

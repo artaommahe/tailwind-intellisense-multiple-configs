@@ -1,0 +1,4 @@
+@config '../../tailwind.new-design.config.js';
+
+@tailwind components;
+@tailwind utilities;
