@@ -1,9 +1,14 @@
-function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+import { NewDesignComponent } from './new-design/NewDesignComponent';
+import { OldDesignComponent } from './old-design/OldDesignComponent';
 
-export default App
+export const App = () => {
+  return (
+    <div className="flex flex-col gap-4">
+      <OldDesignComponent />
+
+      <div>
+        <NewDesignComponent />
+      </div>
+    </div>
+  );
+};
